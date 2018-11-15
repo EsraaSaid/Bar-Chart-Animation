@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My new SVG</title>
+  <title></title>
 </head>
 <body>
-
-<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
  <g stroke="null">
-  <title stroke="null">background</title>
-  <rect stroke="null" fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
-  <g style="vector-effect: non-scaling-stroke;" stroke="null" display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  <title>background</title>
+  <rect x="-1" y="-1" width="195.333333" height="135.333333" id="canvas_background" fill="#fff" stroke="null"/>
+  <g id="canvasGrid" display="none" stroke="null">
+   <rect id="svg_3" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
   </g>
  </g>
  <g stroke="null">
-  <title stroke="null">Layer 1</title>
-  <line stroke="#5a6771" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="295.54166" x2="394.85449" y1="295.54166" x1="141.85477" stroke-width="1.5" fill="none"/>
-  <line stroke="#5a6771" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="296.27082" x2="142.54228" y1="114.27094" x1="142.54228" fill-opacity="null" stroke-width="1.5" fill="none"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_14" y="295.5" x="128.50063" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">0</text>
-  <text stroke="#5a6771" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_15" y="275.5" x="128.00063" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#5a6771">10</text>
-  <text stroke="#5a6771" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_16" y="255.5" x="128.50063" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#5a6771">20</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_17" y="235.5" x="129.00058" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">30</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_18" y="215.5" x="128.50063" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">40</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_19" y="195.5" x="129.00058" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">50</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_20" y="175.5" x="129.00058" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">60</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_21" y="155.5" x="128.50063" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">70</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_22" y="135.5" x="128.50063" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">80</text>
-  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="5" id="svg_23" y="115.5" x="128.50063" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">90</text>
-  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_24" y="310.5" x="166.00008" fill-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">week 2</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_25" y="311.00001" x="224.99979" fill-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771">week 4</text>
-  <text stroke="#5a6771" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_26" y="311.00001" x="286.99952" fill-opacity="null" stroke-width="0" fill="#5a6771">week 12</text>
-  <rect class="logo" stroke="#ffcd01" id="svg_27" height="147" width="11.50002" y="146.9999" x="163.50053" stroke-width="1.5" fill="#ffcd01"/>
-  <rect class="logo" stroke="#5a6771" id="svg_28" height="168" width="12" y="127.06237" x="180.00055" stroke-width="1.5" fill="#5a6771"/>
-  <rect class="logo" stroke="#ffcd01" id="svg_29" height="123" width="12" y="170.5" x="223.00022" stroke-width="1.5" fill="#ffcd01"/>
-  <rect class="logo" stroke="#5a6771" id="svg_30" height="159" width="12" y="135.12482" x="240.50025" stroke-width="1.5" fill="#5a6771"/>
-  <rect class="logo" stroke="#ffcd01" id="svg_31" height="86" width="12" y="207.50022" x="286.99993" stroke-width="1.5" fill="#ffcd01"/>
-  <rect class="logo" stroke="#5a6771" id="svg_32" height="139" width="12" y="156.49985" x="304.93744" stroke-width="1.5" fill="#5a6771"/>
-  <rect id="svg_34" height="14" width="13.5001" y="213.0015" x="345" stroke-opacity="null" stroke-width="1.5" stroke="#5a6771" fill="#5a6771"/>
-  <rect id="svg_35" height="14" width="14" y="187.00131" x="345.00243" stroke-width="1.5" stroke="#ffcd01" fill="#ffcd01"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_37" y="197.50139" x="364.50257" stroke-width="0" stroke="#ffcd01" fill="#5a6771">Zineryt(n=55)</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="8" id="svg_38" y="223.00157" x="366.00258" stroke-width="0" stroke="#ffcd01" fill="#5a6771">Minocycline(n=54)</text>
+  <title>Layer 1</title>
+  <line fill="none" stroke-width="1.5" x1="141.85477" y1="295.54166" x2="394.85449" y2="295.54166" id="svg_1" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#5a6771"/>
+  <line fill="none" stroke-width="1.5" fill-opacity="null" x1="142.54228" y1="114.27094" x2="142.54228" y2="296.27082" id="svg_2" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#5a6771"/>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="128.50063" y="295.5" id="svg_14" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">0</text>
+  <text fill="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="128.00063" y="275.5" id="svg_15" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" stroke="#5a6771">10</text>
+  <text fill="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="128.50063" y="255.5" id="svg_16" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" stroke="#5a6771">20</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="129.00058" y="235.5" id="svg_17" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">30</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="128.50063" y="215.5" id="svg_18" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">40</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="129.00058" y="195.5" id="svg_19" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">50</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="129.00058" y="175.5" id="svg_20" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">60</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="128.50063" y="155.5" id="svg_21" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">70</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="128.50063" y="135.5" id="svg_22" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">80</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="128.50063" y="115.5" id="svg_23" font-size="5" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">90</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" fill-opacity="null" x="166.00008" y="310.5" id="svg_24" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">week 2</text>
+  <text fill="#5a6771" stroke="#5a6771" stroke-width="0" fill-opacity="null" x="224.99979" y="311.00001" id="svg_25" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">week 4</text>
+  <text fill="#5a6771" stroke-width="0" fill-opacity="null" x="286.99952" y="311.00001" id="svg_26" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" stroke="#5a6771">week 12</text>
+  <rect fill="#ffcd01" stroke-width="1.5" x="163.50053" y="146.9999" width="11.50002" height="147" id="svg_27" stroke="#ffcd01" class="logo"/>
+  <rect stroke="#5a6771" fill="#5a6771" stroke-width="1.5" x="180.00055" y="126.562372" width="12" height="168.499998" id="svg_28" class="logo"/>
+  <rect fill="#ffcd01" stroke-width="1.5" x="223.00022" y="171.499999" width="12" height="123" id="svg_29" stroke="#ffcd01" class="logo"/>
+  <rect fill="#5a6771" stroke-width="1.5" x="240.50025" y="135.12482" width="12" height="159" id="svg_30" stroke="#5a6771" class="logo"/>
+  <rect fill="#ffcd01" stroke-width="1.5" x="287.49993" y="208.000219" width="12" height="86" id="svg_31" stroke="#ffcd01" class="logo"/>
+  <rect stroke="#5a6771" fill="#5a6771" stroke-width="1.5" x="304.43744" y="146.999855" width="12" height="147.999995" id="svg_32" class="logo"/>
+  <rect fill="#5a6771" stroke="#5a6771" stroke-width="1.5" stroke-opacity="null" x="345" y="213.0015" width="13.5001" height="14" id="svg_34"/>
+  <rect fill="#ffcd01" stroke="#ffcd01" stroke-width="1.5" x="345.00243" y="187.00131" width="14" height="14" id="svg_35"/>
+  <text fill="#5a6771" stroke="#ffcd01" stroke-width="0" x="364.50257" y="197.50139" id="svg_37" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Zineryt(n=55)</text>
+  <text fill="#5a6771" stroke="#ffcd01" stroke-width="0" x="366.00258" y="223.00157" id="svg_38" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Minocycline(n=54)</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_4" y="141.499924" x="162.999914" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="1">74</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_5" y="120.499935" x="180.499905" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="2">84</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_6" y="164.999912" x="222.999883" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="3">62</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_7" y="129.99993" x="240.499873" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="4">83</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_8" y="202.499892" x="287.999849" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="5">45</text>
+  <text stroke="#5a6771" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_9" y="141.499925" x="304.49984" stroke-opacity="null" stroke-width="0" fill="#5a6771" id="6">77</text>
  </g>
 </svg>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 <script type="text/javascript">
-	var mydata =[147,168,123,159,86,139];
-	TweenMax.from(".logo",5,{ attr :{"height":0 } , ease: Power1.easeOut });
+  var mydata =[147,168,123,159,86,139];
+  TweenMax.from(".logo",5,{ attr :{"height":0 , y:296 } , ease: Power1.easeOut });
+
+  
+
+
 </script>
 
 </body>
