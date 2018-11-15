@@ -41,20 +41,49 @@
   <rect fill="#ffcd01" stroke="#ffcd01" stroke-width="1.5" x="345.00243" y="187.00131" width="14" height="14" id="svg_35"/>
   <text fill="#5a6771" stroke="#ffcd01" stroke-width="0" x="364.50257" y="197.50139" id="svg_37" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Zineryt(n=55)</text>
   <text fill="#5a6771" stroke="#ffcd01" stroke-width="0" x="366.00258" y="223.00157" id="svg_38" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">Minocycline(n=54)</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_4" y="141.499924" x="162.999914" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="1">74</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_5" y="120.499935" x="180.499905" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="2">84</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_6" y="164.999912" x="222.999883" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="3">62</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_7" y="129.99993" x="240.499873" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="4">83</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_8" y="202.499892" x="287.999849" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" id="5">45</text>
-  <text stroke="#5a6771" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_9" y="141.499925" x="304.49984" stroke-opacity="null" stroke-width="0" fill="#5a6771" id="6">77</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_4" y="141.499924" x="162.999914" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" >0</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_5" y="120.499935" x="180.499905" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" >0</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_6" y="164.999912" x="222.999883" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" >0</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_7" y="129.99993" x="240.499873" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" >0</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_8" y="202.499892" x="287.999849" stroke-opacity="null" stroke-width="0" stroke="#5a6771" fill="#5a6771" >0</text>
+  <text stroke="#5a6771" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_9" y="141.499925" x="304.49984" stroke-opacity="null" stroke-width="0" fill="#5a6771" >0</text>
  </g>
 </svg>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 <script type="text/javascript">
   var mydata =[147,168,123,159,86,139];
   TweenMax.from(".logo",5,{ attr :{"height":0 , y:296 } , ease: Power1.easeOut });
-
+  var A =[74, 84, 62 , 83 , 45 , 77];
   
+    var Cont={val:0}  ;
+    TweenLite.to(Cont,5,{val:74,roundProps:"val",onUpdate:function(){
+  document.getElementById("svg_4").innerHTML=Cont.val
+}});
+    
+TweenLite.to(Cont,5,{val:84,roundProps:"val",onUpdate:function(){
+  document.getElementById("svg_5").innerHTML=Cont.val
+}});
+
+TweenLite.to(Cont,5,{val:62,roundProps:"val",onUpdate:function(){
+  document.getElementById("svg_6").innerHTML=Cont.val
+}});
+
+TweenLite.to(Cont,5,{val:83,roundProps:"val",onUpdate:function(){
+  document.getElementById("svg_7").innerHTML=Cont.val
+}});
+
+TweenLite.to(Cont,5,{val:45,roundProps:"val",onUpdate:function(){
+  document.getElementById("svg_8").innerHTML=Cont.val
+}});
+
+TweenLite.to(Cont,5,{val:77,roundProps:"val",onUpdate:function(){
+  document.getElementById("svg_9").innerHTML=Cont.val
+}});
+  
+  
+
+
+
 
 
 </script>
